@@ -6,7 +6,7 @@ import java.util.Scanner;
 /*
 2.5 last task
  */
-public class twofivelast {
+public class TwoFiveLast {
     public static  void main(String[] args)
     {
 
