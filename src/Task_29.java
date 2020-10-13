@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Danil on 13.10.2020.
  */
+//TODO: добавить текст задания
 public class Task_29
 {
     public static void main(String[] args)

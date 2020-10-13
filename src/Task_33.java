@@ -16,12 +16,12 @@ public class Task_33
         int i = 0;
         int c = 0;
         int p = sc.nextInt();
-        while (p > i)
-        {
+        while (p > i) //TODO: цикл будет работать пока каждое последующее число будет больше пердидущего, а в задании
+        {             //нужна убывающая последовательность
             i = p;
             p = sc.nextInt();
             c++;
         }
-        System.out.println(c);
+        System.out.println(c); //TODO: аналогично Task_32 нужно выводить не только цифру, но и пояснение
     }
 }

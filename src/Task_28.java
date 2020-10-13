@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
 2.14.1.6
  */
+//TODO: добавить текст задания
 public class Task_28
 {
     public static void main(String[] args)
