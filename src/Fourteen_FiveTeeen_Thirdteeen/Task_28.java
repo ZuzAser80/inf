@@ -1,9 +1,14 @@
+package Fourteen_FiveTeeen_Thirdteeen;
+
 import java.util.Scanner;
 
 /**
  * Created by Danil on 13.10.2020.
  */
-public class Task_29
+/*
+2.14.1.6
+ */
+public class Task_28
 {
     public static void main(String[] args)
     {
@@ -12,16 +17,7 @@ public class Task_29
         int i = sc.nextInt();
         while (i != x)
         {
-            if (i > x)
-            {
-                System.out.print("МНОГО");
-            }
-            if (i < x)
-            {
-                System.out.println("МАЛО");
-            }
             i = sc.nextInt();
-
         }
     }
 }
