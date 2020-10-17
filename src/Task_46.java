@@ -16,7 +16,7 @@ public class Task_46
         int d = 0;
         int i;
         String h = Integer.toString(n);
-        for (i = 0;i < h.length();i++)
+        for (i = 0;i < h.length();i++) //TODO: нужно переделать на цикл деления пока n > 10
         {
             int g = n % 10;
             if (g == 0)

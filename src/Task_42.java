@@ -15,7 +15,7 @@ public class Task_42
         int n = sc.nextInt();
         int str = 1;
         String h = Integer.toString(n);
-        for (int i = 0;i < h.length();i++)
+        for (int i = 0;i < h.length();i++) //TODO: лучше сделать деление пока n > 10
         {
             int g = n % 10;
             str = g * (n / 10) % 10;
