@@ -13,24 +13,23 @@ public class TwoDotTen
     {
         Scanner a = new Scanner(System.in);
         int aa = a.nextInt();
-        //TODO: добавить граничные условия, сейчас 7, 18, 23, 65 никуда не попадает
-        if (aa < 7)
+        if (aa <= 7)
         {
             System.out.println("Doshcolnic");
         }
-        else if (aa > 7 && aa < 18)
+        else if (aa >= 7 && aa <= 18)
         {
             System.out.println("Shcolnic");
         }
-        else if (aa > 18 && aa < 23)
+        else if (aa >= 18 && aa <= 23)
         {
             System.out.println("Student");
         }
-        else if (aa > 23 && aa < 65)
+        else if (aa >= 23 && aa <= 65)
         {
             System.out.println("Rabochii");
         }
-        else if (aa > 65)
+        else if (aa >= 65)
         {
             System.out.println("Pensioner");
         }
