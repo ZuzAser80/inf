@@ -14,9 +14,7 @@ public class Task_47
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         boolean d = false;
-        int i;
-        String h = Integer.toString(n);
-        for (i = 0;i < h.length();i++)
+        while(n % 10 != 0)
         {
             int g = n % 10;
             if (g == 5)

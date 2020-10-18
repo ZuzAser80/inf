@@ -14,12 +14,11 @@ public class Task_42
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int str = 1;
-        String h = Integer.toString(n);
-        for (int i = 0;i < h.length();i++)
+        while (n % 10 != 0)
         {
             int g = n % 10;
-            str = g * (n / 10) % 10;
-
+            n = n / 10;
+            str = str * g;
         }
         System.out.println(str);
     }

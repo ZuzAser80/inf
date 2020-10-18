@@ -15,13 +15,14 @@ public class Task_43
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int d = 0;
-        int i;
-        String h = Integer.toString(n);
-        for (i = 0;i < h.length();i++)
+        int i = 0;
+        while (n % 10 != 0)
         {
+            i++;
             int g = n % 10;
             n = n / 10;
             d += g;
+
         }
         d = d / i;
         System.out.println(d);

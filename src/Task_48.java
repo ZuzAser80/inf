@@ -9,5 +9,21 @@ import java.util.Scanner;
  */
 public class Task_48
 {
+    public  static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int min = 9;
+        while (n % 10 != 0)
+        {
+            int g = n % 10;
 
+            n = n / 10;
+            if (g < min)
+            {
+                min = g;
+            }
+        }
+        System.out.println(min);
+    }
 }

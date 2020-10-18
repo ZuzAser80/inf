@@ -15,8 +15,7 @@ public class Task_44
         int n = sc.nextInt();
         int d = 0;
         int i;
-        String h = Integer.toString(n);
-        for (i = 0;i < h.length();i++)
+        while (n % 10 != 0)
         {
             int g = n % 10;
             if (g % 2 != 0)

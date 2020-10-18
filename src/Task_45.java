@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 /**
@@ -7,7 +6,6 @@ import java.util.Scanner;
 /*
 2.16.1.6
 Составить программу к задаче «Дано число n. Найти сумму его четных цифр и произведение нечетных».
-TODO: second task block
  */
 public class Task_45
 {
@@ -16,22 +14,22 @@ public class Task_45
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int d = 0;
-        int i;
-        String h = Integer.toString(n);
-        for (i = 0;i < h.length();i++)
+        int i = 1;
+        while (n % 10 != 0)
         {
             int g = n % 10;
             if (g % 2 == 0)
             {
-                d++;
+                d += g;
             }
             else
             {
-
+                i =  i *  g;
             }
             n = n / 10;
         }
-        System.out.println(d);
+        System.out.println("Proizv = " + i);
+        System.out.println("Sum = " + d);
 
     }
 }
