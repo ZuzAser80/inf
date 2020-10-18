@@ -21,11 +21,12 @@ public class Task_32
         {
             i = sc.nextInt();
             String g = Integer.toString(i);
-            if (g.endsWith("2"))
-            {
+            if (g.endsWith("2")) //TODO: по производительности, операции с числами быстрее чем операции над строками.
+            {                    //думаю тут нужно исправить условие на i / 10 == 2
                 c++;
             }
         }
-        System.out.println(c);
+        System.out.println(c); //TODO: предлагаю добавить объяснение, чтобы в консоль не просто тест выводился, например так:
+        //System.out.println("Количество цифр, оканчивающихся на 2: " + c)
     }
 }

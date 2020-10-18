@@ -13,6 +13,7 @@ public class TwoDotTen
     {
         Scanner a = new Scanner(System.in);
         int aa = a.nextInt();
+        //TODO: добавить граничные условия, сейчас 7, 18, 23, 65 никуда не попадает
         if (aa < 7)
         {
             System.out.println("Doshcolnic");

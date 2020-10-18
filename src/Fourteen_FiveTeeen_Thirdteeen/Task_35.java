@@ -23,13 +23,13 @@ public class Task_35
         {
             c += i;
             i = sc.nextInt();
-            if (i > c)
+            if (i > c) //TODO: что должно делать это условие
             {
                 s = i;
             }
 
         }
 
-        System.out.println(s);
+        System.out.println(s); //TODO: аналогично Task_32 нужно выводить не только цифру, но и пояснение
     }
 }
