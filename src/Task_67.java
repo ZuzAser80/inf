@@ -18,19 +18,17 @@ public class Task_67
         int n = sc.nextInt();
         for (int i = 1;i <= n;i++)
         {
-            int g1 = square(i);
-            int g2 = square(i + 1);
-            int g3 = square(i + 2);
+            int g1 = i * i;
+            int g2 = (i + 1) * (i + 1);
+            int g3 = (i + 2) * (i + 2);
             if (g1 + g2 == g3)
             {
-                System.out.println(g1 + " " + g2 + " " + g3);
+                System.out.println(g1);
+                System.out.println(g2);
+                System.out.println(g3);
             }
         }
     }
-    public static int square(int a)
-    {
-        int res = a * a;
-        return res;
-    }
+
 
 }
