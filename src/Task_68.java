@@ -13,16 +13,21 @@ public class Task_68
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int f = 0;
-        for (int i = 1;i <= n;i++)
+        int i;
+        for (i = 1;i <= n;i++)
         {
-            for (int g = 2;g < i;g++)
+            if (isSimple(i))
             {
-                if (i % g != 0)
-                {
-
-                }
+                System.out.println(i);
             }
         }
+    }
+    static boolean isSimple(int c) {
+        for (int i = 2;i < c; i++) {
+            if (c % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }

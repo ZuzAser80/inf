@@ -11,4 +11,35 @@
  */
 public class Task_58
 {
+    public static void main(String[] args)
+    {
+        double all = 1000;
+        int brls = 0;
+        int g = 0;
+        int strgs = 0;
+        int pcgs = 0;
+        while (all > 0)
+        {
+            if (g <= 100)
+            {
+                g++;
+                if (all >= 100)
+                {
+                    all -= 100;
+                    brls++;
+                }
+                if (all >= 50)
+                {
+                    all -= 50;
+                    strgs++;
+                }
+                if (all >= 0.5)
+                {
+                    all -= 0.5;
+                    pcgs++;
+                }
+            }
+        }
+        System.out.print(brls + " " + strgs + " " + pcgs);
+    }
 }
