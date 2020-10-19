@@ -12,23 +12,26 @@ import java.util.Scanner;
  */
 public class Task_67
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for (int i = 1;i <= n;i++)
+        for(int a = 1;a < n;a++)
         {
-            int g1 = i * i;
-            int g2 = (i + 1) * (i + 1);
-            int g3 = (i + 2) * (i + 2);
-            if (g1 + g2 == g3)
+        for (int b = a;b < n;b++) {
+
+            int d = a * a + b * b;
+            int c = 1;
+            while (c * c < d)
             {
-                System.out.println(g1);
-                System.out.println(g2);
-                System.out.println(g3);
+                c++;
+            }
+            if (d == c * c && c < n)
+            {
+                System.out.println(a + " " + b + " " + c);
             }
         }
+        }
     }
-
-
 }
+
+
