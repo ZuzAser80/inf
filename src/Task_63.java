@@ -2,19 +2,30 @@
  * Created by Danil on 18.10.2020.
  */
 /*
-2.13.2.2
+2.16.2.2
 Составить программу печати трехзначных чисел, имеющих 10 делителей
+Я НЕ ВЕРБЛЮД
 */
 public class Task_63
 {
     public static void main(String[] args)
     {
-        for (int i = 10200;i < 19299;i += 1011)
+        int c = 0;
+        for (int i = 100;i <= 999;i++)
         {
-            if (i % 37 == 0)
+            for (int g = 1;g <= 9;g++)
             {
-                System.out.println("1?2?? = " + i);
+                if (i % g == 0)
+                {
+                    c++;
+                    if (c == 10)
+                    {
+                        System.out.println(i);
+                    }
+                }
             }
+            c = 0;
         }
+
     }
 }
