@@ -5,20 +5,20 @@ package Twenteen;
 /*
 2.12.3.7
  */
-//TODO : dodelat
 public class Task_17
 {
     public static void main(String[] args)
     {
         //Stepeni
-        double end = 1;
-        for (int i = 0;i < 10;i++)
+        int end = 1;
+        for (int i = 0;i <= 10;i++)
         {
-            for (double g = 1;g < i + 1;g++)
+            for (int i1 = 0;i1 < i;i1++)
             {
-                end += end * 3;
-                System.out.println(end);
+                end  = end * 3;
             }
+            System.out.println(end);
+            end = 1;
         }
     }
 }

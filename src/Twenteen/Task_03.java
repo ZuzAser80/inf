@@ -8,8 +8,8 @@ import java.util.Scanner;
 /*
 
 2.12.1.7
+Фаториалы
  */
-//TODO : доделать
 public class Task_03
 {
     public static void main(String[] args)
@@ -17,11 +17,10 @@ public class Task_03
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int g = 1;
-        for (int i = 1;i < n;i++)
+        for (int i = 1;i <= n;i++)
         {
             g = g * i;
-            System.out.println(g);
         }
-
+        System.out.println(g);
     }
 }

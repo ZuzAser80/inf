@@ -14,7 +14,7 @@ public class Task_19
         double kilo = 1;
         for (int i = 0;i < 7;i++)
         {
-            kilo += kilo + 0.2;
+            kilo += 0.2;
         }
 
         System.out.println(kilo);

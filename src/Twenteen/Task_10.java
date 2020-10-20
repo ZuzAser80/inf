@@ -8,7 +8,6 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 /*
 2.12.2.7
-TODO: таблица
  */
 public class Task_10
 {
@@ -17,7 +16,11 @@ public class Task_10
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int x = ThreadLocalRandom.current().nextInt(-10, 10);
-        System.out.print("y = " + a * x + b);
+        for (int x = -10;x <= 10;x++)
+        {
+            int g = a * x;
+            int sum = g + b;
+            System.out.println("При х = " + x + " y = " + sum);
+        }
     }
 }

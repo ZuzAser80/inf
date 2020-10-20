@@ -18,8 +18,7 @@ public class Task_15
         for (int i = 0;i < n;i++)
         {
             int d = sc.nextInt();
-            String s = Integer.toString(d);
-            if (s.endsWith("3"))
+            if (d % 10 == 3)
             {
                 stg = stg * d;
             }
