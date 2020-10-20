@@ -1,7 +1,7 @@
 package Twenteen;
 
 /**
- * Created by Danil on 12.10.2020.
+ * Created by Danil on.10.2020.
  */
 /*
 2.12.2.5
