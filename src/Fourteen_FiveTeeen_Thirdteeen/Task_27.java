@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.14.1.5
+Составьте программу к задаче «Вводить числа с клавиатуры, пока они положительны».
  */
-//TODO: добавить текст задания
 public class Task_27
 {
     public static void main(String[] args)

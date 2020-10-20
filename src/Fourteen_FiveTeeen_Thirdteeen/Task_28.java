@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.14.1.6
+Составьте программу к задаче «Вводить числа с клавиатуры, пока не встретится задуманное число x».
  */
-//TODO: добавить текст задания
 public class Task_28
 {
     public static void main(String[] args)

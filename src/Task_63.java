@@ -13,7 +13,7 @@ public class Task_63
         int c = 0;
         for (int i = 100;i <= 999;i++)
         {
-            for (int g = 1;g <= 9;g++)
+            for (int g = 1;g <= i;g++)
             {
                 if (i % g == 0)
                 {

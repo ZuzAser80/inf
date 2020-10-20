@@ -9,27 +9,23 @@ import java.util.Scanner;
 2.14.2.6
 Составьте программу к задаче
 «Вводить числа, пока их сумма не превысит 100. Среди них найти максимальное число».
-TODO: MAX
  */
 public class Task_35
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
         int c = 0;
         int s = 0;
         while (c <= 100)
         {
+            int i = sc.nextInt();
             c += i;
-            i = sc.nextInt();
-            if (i > c) //TODO: что должно делать это условие
+            if (i > s)
             {
                 s = i;
             }
-
         }
-
-        System.out.println(s); //TODO: аналогично Task_32 нужно выводить не только цифру, но и пояснение
+        System.out.println("Макс. число = " + s);
     }
 }

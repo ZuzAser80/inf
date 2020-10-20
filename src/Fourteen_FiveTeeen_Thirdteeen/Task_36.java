@@ -13,7 +13,6 @@ import java.util.Scanner;
 */
 public class Task_36
 {
-    //TODO: нужны разные циклы for, while, do while
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);

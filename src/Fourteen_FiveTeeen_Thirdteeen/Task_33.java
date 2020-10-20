@@ -15,15 +15,16 @@ public class Task_33
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        int i = 0;
+
         int c = 0;
         int p = sc.nextInt();
-        while (p > i) //TODO: цикл будет работать пока каждое последующее число будет больше пердидущего, а в задании
-        {             //нужна убывающая последовательность
-            i = p;
+        int i = p - 1;
+        while (p - i == 1)
+        {
+            i++;
             p = sc.nextInt();
             c++;
         }
-        System.out.println(c); //TODO: аналогично Task_32 нужно выводить не только цифру, но и пояснение
+        System.out.println(c);
     }
 }

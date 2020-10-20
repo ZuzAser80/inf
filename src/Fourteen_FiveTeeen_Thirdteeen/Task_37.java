@@ -12,14 +12,13 @@ import java.util.Scanner;
  */
 public class Task_37
 {
-    //TODO: нужны разные циклы for, while, do while
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int h = 1;h < n;h++)
         {
-            if (h % 4== 0 || h % 5 == 0)
+            if (h % 4 == 0 || h % 5 == 0)
             {
                 System.out.println(h);
             }
