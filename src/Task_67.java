@@ -17,19 +17,20 @@ public class Task_67
         int n = sc.nextInt();
         for(int a = 1;a < n;a++)
         {
-        for (int b = a;b < n;b++) {
+            for (int b = a;b < n;b++)
+            {
 
-            int d = a * a + b * b;
-            int c = 1;
-            while (c * c < d)
-            {
-                c++;
+                int d = a * a + b * b;
+                int c = 1;
+                while (c * c < d)
+                {
+                    c++;
+                }
+                if (d == c * c && c < n)
+                {
+                    System.out.println(a + " " + b + " " + c);
+                }
             }
-            if (d == c * c && c < n)
-            {
-                System.out.println(a + " " + b + " " + c);
-            }
-        }
         }
     }
 }
