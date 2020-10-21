@@ -24,14 +24,9 @@ public class Task_54
             d = d / 10;
             counter++;
         }
-        if (counter % 2 != 0)
-        {
-            counter++;
-            g = counter / 2;
-            System.out.println(g);
-
-        }
-        s = Math.pow(g, f) / 100;
+        g = n / counter;
+        System.out.println(g);
+        s = Math.pow(g, counter);
         n -= s;
         System.out.println(n);
     }

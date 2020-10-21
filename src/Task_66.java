@@ -14,6 +14,21 @@ public class Task_66
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        int g = n;
+        int a = g % 10;
+        g = g / 10;
+        int b = g % 10;
+        g = g / 10;
+        int c = g % 10;
+        g = g / 10;
+        int d = g % 10;
+        if (a == d && b == c && d != c)
+        {
+            System.out.println(n + " является 'перевертышем'");
+        }
+        else
+        {
+            System.out.println(n + " не является 'перевертышем'");
+        }
     }
 }

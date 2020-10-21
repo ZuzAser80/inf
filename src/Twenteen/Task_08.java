@@ -12,7 +12,18 @@ public class Task_08
     {
         for (int i = 1000;i <= 9999;i++)
         {
-
+            int g = i;
+            int a = g % 10;
+            g = g / 10;
+            int b = g % 10;
+            g = g / 10;
+            int c = g % 10;
+            g = g / 10;
+            int d = g % 10;
+            if (a == d && b == c && d != c)
+            {
+                System.out.println(i);
+            }
         }
 
     }
