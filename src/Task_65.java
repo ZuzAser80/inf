@@ -24,14 +24,14 @@ public class Task_65
             if (g >= max)
             {
                 max = g;
-
+                f++;
             }
             else
             {
                 f++;
             }
         }
-        double s = Math.pow(max, f) * 10;
+        double s = Math.pow(max, f + 1);
         d -= s;
         System.out.println(d);
     }

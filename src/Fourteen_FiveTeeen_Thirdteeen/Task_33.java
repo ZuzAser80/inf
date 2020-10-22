@@ -19,7 +19,7 @@ public class Task_33
         int c = 0;
         int p = sc.nextInt();
         int i = p - 1;
-        while (p - i == 1)
+        while (p <= i)
         {
             i++;
             p = sc.nextInt();

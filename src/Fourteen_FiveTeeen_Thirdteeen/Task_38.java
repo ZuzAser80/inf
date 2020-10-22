@@ -10,4 +10,24 @@ package Fourteen_FiveTeeen_Thirdteeen;
  */
 public class Task_38
 {
+
+    public static void main(String[] args)
+    {
+        int f = 0;
+        for (int i = 10;i <= 99;i++)
+        {
+            int g = i;
+            while (g % 10 != 0)
+            {
+                int h = g % 10;
+                if (h - 1 == f)
+                {
+                    System.out.println(i);
+                }
+                g = g /10;
+                f = h;
+            }
+            f = 0;
+        }
+    }
 }

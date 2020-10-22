@@ -14,8 +14,11 @@ public class Task_54
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int d = n;
-        int g = 0;
+        int g = n;
+        int max = 0;
+        double v = 0;
         double s = 0;
+        int a = 0;
         int counter = 0;
         int f = 1;
         while (d % 10 != 0)
@@ -24,9 +27,22 @@ public class Task_54
             d = d / 10;
             counter++;
         }
-        g = n / counter;
-        System.out.println(g);
-        s = Math.pow(g, counter);
+        while (g % 10 != 0)
+        {
+            int h = g % 10;
+            g = g / 10;
+            a++;
+            if (a == counter / 2 + 1)
+            {
+                max = h;
+            }
+        }
+        int j = counter / 2;
+        for (int q = 0;q < j;q++)
+        {
+            v = Math.pow(max, q);
+        }
+        s = v * 100;
         n -= s;
         System.out.println(n);
     }
