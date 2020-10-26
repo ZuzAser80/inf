@@ -15,24 +15,15 @@ public class Task_33
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        int p = sc.nextInt();
-        int i = p - 1;
-        while(K(p, i))
+        int i = sc.nextInt();
+        int p = 0;
+        int c = 0;
+        while (p < i)
         {
-            int c = 0;
-            p = sc.nextInt();
-            System.out.println(c);
+            p = i;
+            i = sc.nextInt();
+            c++;
         }
-    }
-    static boolean K(int g1,int g2)
-    {
-        if (g2 - g1 == 1)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        System.out.println(c);
     }
 }
