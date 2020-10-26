@@ -15,17 +15,27 @@ public class Task_69
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int f = 0;
+        int max = 0;
         int strg = 0;
-        int h = strg;
-        for (int i = 1;i <= n;i++)
+        for (int i = 0;i <= n;i++)
         {
-            for (int g = 1;g <= i;g++)
+           if (Proc(i) >= Proc(max))
+           {
+               max = i;
+           }
+        }
+        System.out.println(max);
+    }
+    static int Proc(int i)
+    {
+        int str = 0;
+        for (int g = 1;g <= i;g++)
+        {
+            if (i % g == 0)
             {
-                if (i % g == 0)
-                {
-                    strg++;
-                }
+                str++;
             }
         }
+        return str;
     }
 }

@@ -28,10 +28,12 @@ public class Task_65
             }
             else
             {
-                f++;
+
             }
         }
-        double s = Math.pow(max, f + 1);
+        double s = Math.pow(10, f);
+        s = s / 10;
+        s = s * max;
         d -= s;
         System.out.println(d);
     }
