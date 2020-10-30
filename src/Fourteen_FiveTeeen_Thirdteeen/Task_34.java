@@ -15,6 +15,7 @@ import java.util.Scanner;
  */
 public class Task_34
 {
+    //TODO: отформатировать код
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
