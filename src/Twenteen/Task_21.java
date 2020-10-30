@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Danil on 12.10.2020.
  */
+//TODO: Добавить описание задачи
 public class Task_21
 {
     public static void main(String[] args)
