@@ -6,6 +6,7 @@ package Twenteen;
 /*
 2.12.2.5
  */
+//TODO: добавить описание задачи
 public class Task_08
 {
     public static void main(String[] args)

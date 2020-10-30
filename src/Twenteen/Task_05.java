@@ -8,7 +8,7 @@ import java.util.Scanner;
 /*
 2.12.1.9
  */
-//TODO : Некоторые ыводятся 2 раза.break - не вариант
+//TODO : Некоторые ыводятся 2 раза.break - не вариант, добавить описание задачи
 public class Task_05
 {
     public static void main(String[] args)

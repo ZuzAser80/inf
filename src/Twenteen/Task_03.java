@@ -10,6 +10,7 @@ import java.util.Scanner;
 2.12.1.7
 Фаториалы
  */
+//TODO: описание задачи
 public class Task_03
 {
     public static void main(String[] args)

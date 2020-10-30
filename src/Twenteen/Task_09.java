@@ -8,6 +8,7 @@ import java.util.Scanner;
 /*
 2.12.2.6
  */
+//TODO: добавить описание задачи
 public class Task_09
 {
     public static void main(String[] args)

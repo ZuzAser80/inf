@@ -9,6 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /*
 2.12.2.7
  */
+//TODO: добавить описание задачи
 public class Task_10
 {
     public static void main(String[] args)
