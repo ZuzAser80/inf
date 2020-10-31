@@ -24,7 +24,7 @@ public class Task_39
                 {
                     System.out.println("Tрехзначное число, имеющее 10 делителей = " + n);
                     s = 0;
-                    break; //TODO: этот брейк прервет только цикл for (int i = 2;i <= n;i++), но не прервет цикл for (int n = 100;n <= 999;n++)
+                    break;
                 }
                 break;
             }
