@@ -15,7 +15,7 @@ public class Task_66
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int g = n;
-        int a = g % 10;
+        int a = g % 10;  //TODO: расчет только на 4х значные числа?
         g = g / 10;
         int b = g % 10;
         g = g / 10;

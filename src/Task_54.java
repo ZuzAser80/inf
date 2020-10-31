@@ -21,12 +21,13 @@ public class Task_54
         int a = 0;
         int counter = 0;
         int f = 1;
-        while (d % 10 != 0)
+        while (d % 10 != 0) //TODO: если ввести 10 то цикл вообще не будет выполняться, нужно поправить условие цикла
         {
             int h = d % 10;
             d = d / 10;
             counter++;
         }
+        //TODO: а что эти цикл делает?
         while (g % 10 != 0)
         {
             int h = g % 10;
@@ -40,7 +41,7 @@ public class Task_54
         int j = counter / 2;
         for (int q = 0;q < j;q++)
         {
-            v = Math.pow(max, q);
+            v = Math.pow(max, q); //TODO: зачем max возводиться в степень q
         }
         s = v * 100;
         n -= s;

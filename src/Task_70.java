@@ -18,11 +18,11 @@ public class Task_70
             int n2 = i / 10 - n1 * 10;
             int n3 = i % 10;
             int n = n1 * n1 + n2 * n2 + n3 * n3;
-            if (n >= i)
+            if (n >= i) //TODO: n - это квадрат цифр возраста, а где числа дня?
             {
                 continue;
             }
-            if (i - n <= 31)
+            if (i - n <= 31) //TODO: непонятно что означает это условие
             {
                 System.out.println(i);
             }

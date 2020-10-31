@@ -16,11 +16,10 @@ public class Task_52
         double max = 0;
         int d = n;
         double f = 0;
-        while (n % 10 != 0)
+        while (n % 10 != 0) //TODO: если ввести 10 то цикл вообще не будет выполняться, нужно поправить условие цикла
         {
             int g = n % 10;
             n = n / 10;
-
         }
         double s = Math.pow(max, 1) * 10;
         String h = Integer.toString(n);
