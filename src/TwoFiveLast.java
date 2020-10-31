@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
 2.5 last task
  */
+//TODO: добавить описание задачи
 public class TwoFiveLast {
     public static  void main(String[] args)
     {

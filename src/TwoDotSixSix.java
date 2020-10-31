@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
 2.6 6 task
  */
+//TODO: добавить описание задачи
 public class TwoDotSixSix {
     public static void main(String[] args)
     {

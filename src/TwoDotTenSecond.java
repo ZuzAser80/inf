@@ -3,6 +3,8 @@ import java.util.Scanner;
 /**
  * Created by Danil on 10.10.2020.
  */
+//TODO: добавить описание задачи
+//TODO: задача не решена, мы с тобой тогда таблицу составляли
 public class TwoDotTenSecond
 {
     public static void main(String[] args)

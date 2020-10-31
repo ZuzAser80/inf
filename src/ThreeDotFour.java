@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
 2.5 prelast
  */
+//TODO: добавить описание задачи
 public class ThreeDotFour
 {
     public static void main(String[] args) {

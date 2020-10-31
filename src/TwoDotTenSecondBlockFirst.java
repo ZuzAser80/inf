@@ -20,7 +20,7 @@ public class TwoDotTenSecondBlockFirst
         {
             System.out.println("Точка в области");
         }
-        else if (x < minx && y < miny || x > maxx && y > maxy)
+        else if (x < minx && y < miny || x > maxx && y > maxy) //TODO: а зачем тут второе условие?
         {
             System.out.println("Точка вне области");
         }

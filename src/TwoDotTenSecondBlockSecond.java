@@ -17,17 +17,17 @@ public class TwoDotTenSecondBlockSecond
         int c = ds.nextInt();
         int d = ds.nextInt();
         int max;
-        if (a == d || b == d || c == d)
+        if (a == d || b == d || c == d) //TODO: это условие можно убать, так как проверки дублируются
         {
-            if (a == d)
+            if (a == d) //например эта дублирует первую часть a == d ||
             {
                 System.out.print("a == d");
             }
-            if (b == d)
+            if (b == d) // эта дублирует вторую часть b == d ||
             {
                 System.out.print("b == d");
             }
-            if (c == d)
+            if (c == d) //дублирует третью часть, в итоге у тебя должен получиться "плоский" if - then - else без вложенных проверок
             {
                 System.out.print("c == d");
             }
