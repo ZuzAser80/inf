@@ -14,10 +14,17 @@ public class Task_38
 
     public static void main(String[] args)
     {
-        int f = 0;
-        for (int i = 12;i <= 99;i += 11) //TODO: цикл не учитыват например 24, 25, 26, 27
+        for (int i = 10;i <= 99;i++)
         {
-            System.out.println(i);
+            int g = i;
+            int a = g % 10;
+            g = g / 10;
+            int b = g % 10;
+            g = g / 10;
+            if (a > b)
+            {
+                System.out.println(i);
+            }
         }
     }
 }

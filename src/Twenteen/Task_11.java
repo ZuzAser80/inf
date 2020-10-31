@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.3.1
+Составить программу, которая запрашивает ввод десяти чисел.
  */
-//TODO: добавить описание задачи
 public class Task_11
 {
     public static void main(String[] args)

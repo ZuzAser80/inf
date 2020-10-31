@@ -5,8 +5,8 @@ package Twenteen;
  */
 /*
 2.12.1.4
+Составить программу, печатающую на экране 25 раз фразу: «Привет! Я учусь в седьмом классе».
  */
-//TODO: написать задачу
 public class Task
 {
     public static  void main(String[] args)

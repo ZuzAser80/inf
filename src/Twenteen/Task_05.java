@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.1.9
+Вывести на экран все числа из промежутка от 1 до n, которые делятся на 2, 3 и 5.
  */
-//TODO : Некоторые ыводятся 2 раза.break - не вариант, добавить описание задачи
 public class Task_05
 {
     public static void main(String[] args)

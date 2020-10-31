@@ -11,11 +11,19 @@ public class Task_07
 {
     public static void main(String[] args)
     {
-        //TODO: такой цикл не учитыват например  112, 113, 126, 127, 156 и так далее
-        //необходимо перебирвать все трехзначные числа, выделять из них три разряда и сравнивать их
-        for (int i = 123;i <= 999;i += 111)
+        for (int i = 100;i <= 999;i++)
         {
-            System.out.println(i);
+            int g = i;
+            int a = g % 10;
+            g = g / 10;
+            int b = g % 10;
+            g = g / 10;
+            int c = g % 10;
+            g = g / 10;
+            if (a > b && b > c)
+            {
+                System.out.println(i);
+            }
         }
 
     }

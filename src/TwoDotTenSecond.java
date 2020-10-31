@@ -3,7 +3,6 @@ import java.util.Scanner;
 /**
  * Created by Danil on 10.10.2020.
  */
-//TODO: переделать (см табличку)
 public class TwoDotTenSecond
 {
     public static void main(String[] args)
@@ -13,15 +12,15 @@ public class TwoDotTenSecond
         String g = Integer.toString(a);
         String Ending = "";
 
-        if (a / 2 != 0)
+        if (a % 2 == 0)
         {
             Ending  = "лет";
         }
-        else if (a / 2 == 0)
+        else if (a % 2 != 0)
         {
             Ending = "года";
         }
-        if (g.endsWith("1"))
+        if (a % 10 == 1)
         {
 
             Ending = "год";

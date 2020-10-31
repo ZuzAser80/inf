@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.3.2
+Составить программу, которая запрашивает ввод десяти чисел и находит их сумму
  */
-//TODO: добавить описание задачи
 public class Task_12
 {
     public static void main(String[] args)

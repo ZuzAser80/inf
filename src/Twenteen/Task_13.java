@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.3.3
+Составить программу, которая среди n введенных чисел находит произведение нечетных.
  */
-//TODO: добавить описание задачи
 public class Task_13
 {
     public static void main(String[] args)

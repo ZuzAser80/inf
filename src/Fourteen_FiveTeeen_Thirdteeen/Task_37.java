@@ -16,7 +16,7 @@ public class Task_37
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for (int h = 1;h < n;h++) //TODO: число n невключается, то есть если n = 3 то в цикле будет только 1 и 2, нужно  h <= n
+        for (int h = 1;h <= n;h++)
         {
             if (h % 4 == 0 || h % 5 == 0)
             {

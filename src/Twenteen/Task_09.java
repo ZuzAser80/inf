@@ -7,8 +7,9 @@ import java.util.Scanner;
  */
 /*
 2.12.2.6
+Составить программу,
+распечатывающую таблицу умножения на заданное число а
  */
-//TODO: добавить описание задачи
 public class Task_09
 {
     public static void main(String[] args)
