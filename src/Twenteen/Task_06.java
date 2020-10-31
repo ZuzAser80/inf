@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.1.10
+Составить программу, находящую сумму всех двузначных чисел.
  */
-//TODO: добавить описание задачи
 public class Task_06
 {
     public static void main(String[] args)

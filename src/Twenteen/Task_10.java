@@ -8,8 +8,10 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 /*
 2.12.2.7
+Составить программу,
+выводящую на экран таблицу значений функции  y=ax+b, при заданных a и b для х,
+принимающего значения от -10 до 10.
  */
-//TODO: добавить описание задачи
 public class Task_10
 {
     public static void main(String[] args)

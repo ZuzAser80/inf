@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.3.4
+Составить программу, которая среди n введенных чисел считает количество чисел равных 0.
  */
-//TODO: добавить описание задачи
 public class Task_14
 {
     public static void main(String[] args)

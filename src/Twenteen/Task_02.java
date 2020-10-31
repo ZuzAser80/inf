@@ -7,8 +7,9 @@ import java.util.Scanner;
  */
 /*
 2.12.1.6
+Составить программу, печатающую нечетные числа из промежутка от 1 до n.
  */
-//TODO: написать задачу
+
 public class Task_02
 {
     public static void main(String[] args)

@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 /*
 2.12.5.1
+Составить программу, которая запрашивает ввести n чисел и находит среди них максимальное число.
  */
-//TODO: Добавить описание задачи
 public class Task_25
 {
     public static void main(String[] args)
