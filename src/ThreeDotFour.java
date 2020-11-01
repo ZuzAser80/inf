@@ -5,8 +5,15 @@ import java.util.Scanner;
  */
 /*
 2.5 prelast
+Написать программу, выводящую на экран картинку:
+0 0 0 0 0 0
+0 А А А А 0
+0 А Х Х А 0
+0 А Х Х А 0
+0 А А А А 0
+0 0 0 0 0 0
  */
-//TODO: добавить описание задачи
+
 public class ThreeDotFour
 {
     public static void main(String[] args) {

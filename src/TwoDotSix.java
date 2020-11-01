@@ -5,8 +5,9 @@ import java.util.Scanner;
  */
 /*
 2.6 four task
+Даны стороны прямоугольника. Найти его периметр и площадь.
  */
-//TODO: добавить описание задачи
+
 public class TwoDotSix {
     public static void main(String[] args)
     {
