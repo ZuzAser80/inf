@@ -14,6 +14,7 @@ public class Task_33
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         int p = 0;
@@ -21,9 +22,11 @@ public class Task_33
         while (p < i)
         {
             p = i;
+            //TODO: добавить приглашение ввести следующее число
             i = sc.nextInt();
             c++;
         }
+        //TODO: добавить комментарий, что нашли
         System.out.println(c);
     }
 }

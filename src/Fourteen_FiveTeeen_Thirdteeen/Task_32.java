@@ -14,13 +14,15 @@ public class Task_32
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         int c = 0;
         while (i % 5 != 0)
         {
+            //TODO: добавить приглашение ввести следующее число
             i = sc.nextInt();
-            String g = Integer.toString(i);
+            String g = Integer.toString(i); //TODO: что делает эта строка? Переменная g дальше не используется
             if (i % 10 == 2)
             {
                 c++;

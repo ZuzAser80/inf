@@ -20,7 +20,7 @@ public class Task_38
             int a = g % 10;
             g = g / 10;
             int b = g % 10;
-            g = g / 10;
+            g = g / 10; //TODO: лишнее вычисление
             if (a > b)
             {
                 System.out.println(i);

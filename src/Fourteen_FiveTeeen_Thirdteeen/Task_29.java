@@ -14,6 +14,7 @@ public class Task_29
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int i = sc.nextInt();
@@ -27,8 +28,9 @@ public class Task_29
             {
                 System.out.println("МАЛО");
             }
+            //TODO: добавить приглашение ввести следующее число
             i = sc.nextInt();
-
         }
+        //TODO: добавить промт с сообщением что ввод закончен
     }
 }

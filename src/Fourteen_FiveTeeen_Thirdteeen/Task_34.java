@@ -17,16 +17,17 @@ public class Task_34
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         double k = sc.nextInt();
         int c = 0;
         int d = 1;
-            while (c <= 1000000)
-            {
-                d++;
-                c += k;
-                k = k * 1.15;
-            }
-            System.out.println("Понадобится " + d  + " дней.");
+        while (c <= 1000000)
+        {
+            d++;
+            c += k;
+            k = k * 1.15;
+        }
+        System.out.println("Понадобится " + d  + " дней.");
     }
 }
