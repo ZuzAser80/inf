@@ -22,7 +22,7 @@ public class Task_67
 
                 int d = a * a + b * b;
                 int c = 1;
-                while (c * c < d) //TODO: а зачем этот цикл?
+                while (c * c == d)
                 {
                     c++;
                 }

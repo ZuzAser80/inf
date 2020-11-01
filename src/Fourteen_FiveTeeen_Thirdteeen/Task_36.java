@@ -16,20 +16,19 @@ public class Task_36
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int c = 0;
         for (int h = 0;h < n;h++)
         {
-            //TODO: добавить приглашение ввести следующее число
+            System.out.println("Введите число");
             int i = sc.nextInt();
             if (i == 0 || i % 10 == 0)
             {
                 c++;
             }
         }
-        //TODO: добавить комментарий, что нашли
-        System.out.println(c);
+        System.out.println(c + " чисел равно 0 или кратно 10");
     }
 }

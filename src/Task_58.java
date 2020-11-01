@@ -15,7 +15,7 @@ public class Task_58
     {
         double all = 1000;
         int brls = 0;
-        int g = 0; //TODO: если начинаешь с 0 и добавляешь до 100 то общее количество будет 101
+        int g = 1;
         int strgs = 0;
         int pcgs = 0;
         while (all > 0)

@@ -16,7 +16,7 @@ public class Task_49
         int n = sc.nextInt();
         int max = 0;
         int f = 0;
-        while (n % 10 != 0) //TODO: если ввести 10 то цикл вообще не будет выполняться, нужно поправить условие цикла
+        while (n / 10 != 0)
         {
             int g = n % 10;
             n = n / 10;

@@ -4,9 +4,9 @@ import java.util.Scanner;
  * Created by Danil on 18.10.2020.
  */
 /*
-2.16.3.3
+2.16.3.1
+Составить программу к задаче «Дано число n. Получить новое число, приписав к нему такое же».
  */
-//TODO: добавить задание
 public class Task_55
 {
     public  static void main(String[] args)

@@ -21,15 +21,15 @@ public class TwoDotTen
         {
             System.out.println("Shcolnic");
         }
-        else if (aa >= 18 && aa <= 23) //TODO: тут для 18 можно сделать строго неравенство
+        else if (aa > 18 && aa <= 23)
         {
             System.out.println("Student");
         }
-        else if (aa >= 23 && aa <= 65) //TODO: тут для 23 можно сделать строго неравенство
+        else if (aa > 23 && aa <= 65)
         {
             System.out.println("Rabochii");
         }
-        else if (aa >= 65) //TODO: тут для 65 можно сделать строго неравенство
+        else if (aa > 65)
         {
             System.out.println("Pensioner");
         }

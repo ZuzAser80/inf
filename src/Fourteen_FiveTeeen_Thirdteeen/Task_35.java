@@ -14,13 +14,13 @@ public class Task_35
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int c = 0;
         int s = 0;
         while (c <= 100)
         {
-            //TODO: добавить приглашение ввести следующее число
+            System.out.println("Введите число");
             int i = sc.nextInt();
             c += i;
             if (i > s)

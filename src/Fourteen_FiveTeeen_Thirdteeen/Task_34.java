@@ -17,7 +17,7 @@ public class Task_34
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите k");
         Scanner sc = new Scanner(System.in);
         double k = sc.nextInt();
         int c = 0;

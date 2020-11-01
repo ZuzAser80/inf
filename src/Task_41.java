@@ -13,7 +13,7 @@ public class Task_41
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        while (n % 10 != 0) //TODO: если ввести 10 то цикл вообще не будет выполняться, нужно поправить условие цикла
+        while (n / 10 != 0)
         {
             int g = n % 10;
             n = n / 10;

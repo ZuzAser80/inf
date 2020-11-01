@@ -13,14 +13,14 @@ public class Task_27
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         while (i >= 0)
         {
-            //TODO: добавить приглашение ввести следующее число
+            System.out.println("Введите число");
             i = sc.nextInt();
         }
-        //TODO: добавить промт с сообщением что ввод закончен
+        System.out.println(i + " - отрицательно.Программа выполнена");
     }
 }

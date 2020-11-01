@@ -17,7 +17,7 @@ public class Task_65
         double max = 0;
         int d = n;
         double f = 0;
-        while (n % 10 != 0) //TODO: поправить условие цикла
+        while (n / 10 != 0)
         {
             int g = n % 10;
             n = n / 10;

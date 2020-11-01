@@ -18,18 +18,16 @@ public class Task_59
         Scanner sc = new Scanner(System.in);
         int s = sc.nextInt();
         int g = 0;
+        boolean i = false;
         int g1 = 0;
-        while (s > 0) //TODO: сейчас програма ищет только один вариант, а нужны все. Поэтому нужно переделать на два вложенных цикла
+        if (s >= 7)
         {
-            if (s % 5 == 0) //TODO: а зачем делается деление? если s = 8 то ни одно из условий не будет выполнено
+            while (i == true)
             {
-                s -= 5;
-                g++;
-            }
-            else if (s % 3 == 0)
-            {
-                s -= 3;
-                g1++;
+                if (s % 5 == 0)
+                {
+
+                }
             }
         }
         System.out.println("5: " + g + " 3: " + g1);
