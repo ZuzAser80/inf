@@ -19,7 +19,7 @@ public class Task_07
             int b = g % 10;
             g = g / 10;
             int c = g % 10;
-            g = g / 10;
+            g = g / 10; //TODO: лишняя вычисление, можно убрать
             if (a > b && b > c)
             {
                 System.out.println(i);

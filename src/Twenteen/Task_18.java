@@ -15,6 +15,7 @@ public class Task_18
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int result = 1;
@@ -22,6 +23,7 @@ public class Task_18
         {
             result = result * 10;
         }
+        //TODO: добавить вывод комментария, что нашли
         System.out.println(result);
     }
 }

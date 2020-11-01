@@ -13,6 +13,7 @@ public class Task_05
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 1;i <= n;i++)
@@ -20,16 +21,15 @@ public class Task_05
             if (i % 5 == 0)
             {
                 System.out.println(i);
-
             }
             else if (i % 3 == 0)
-                {
-                    System.out.println(i);
-                }
-                else if (i % 2 == 0)
-                    {
-                        System.out.println(i);
-                    }
+            {
+                System.out.println(i);
+            }
+            else if (i % 2 == 0)
+            {
+                System.out.println(i);
+            }
         }
     }
 }

@@ -14,6 +14,7 @@ public class Task_09
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         for (int i = 1;i <= 10;i++)

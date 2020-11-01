@@ -17,8 +17,8 @@ public class Task_06
         for (int i = 10;i <= 99;i++)
         {
             o += i;
-
         }
+        //TODO: добавить вывод комментария, что нашли
         System.out.println(o);
     }
 }

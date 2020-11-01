@@ -15,6 +15,7 @@ public class Task_20
 {
     public static void main(String[] args)
     {
+        //TODO: добавить promt, иначе создается впечатление что программа зависла
         Scanner sc = new Scanner(System.in);
         double x = sc.nextInt();
         double a = sc.nextInt();
@@ -25,6 +26,7 @@ public class Task_20
             double pr = proc * a;
             x += pr;
         }
+        //TODO: добавить вывод комментария, что нашли
         System.out.print(x);
     }
 }
