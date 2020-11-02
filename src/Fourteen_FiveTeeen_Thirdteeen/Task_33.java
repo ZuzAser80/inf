@@ -22,7 +22,7 @@ public class Task_33
         while (p < i)
         {
             p = i;
-            System.out.println("Введите число");
+            System.out.println("Введите следующее число");
             i = sc.nextInt();
             c++;
         }

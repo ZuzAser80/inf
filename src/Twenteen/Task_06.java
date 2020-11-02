@@ -1,6 +1,5 @@
 package Twenteen;
 
-import java.util.Scanner;
 
 /**
  * Created by Danil on 12.10.2020.

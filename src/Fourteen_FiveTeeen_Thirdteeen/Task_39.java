@@ -20,11 +20,11 @@ public class Task_39
                 {
                     s++;
                 }
-                if (s >= 10)
-                {
-                    System.out.println("Tрехзначное число, имеющее 10 делителей = " + n);
-                    break;
-                }
+            }
+            if (s >= 10)
+            {
+                System.out.println("Tрехзначное число, имеющее 10 делителей = " + n);
+                break;
             }
         }
 

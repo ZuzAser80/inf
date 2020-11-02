@@ -13,7 +13,7 @@ public class Task_13
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
+        System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int stg = 1;

@@ -20,7 +20,7 @@ public class Task_35
         int s = 0;
         while (c <= 100)
         {
-            System.out.println("Введите число");
+            System.out.println("Введите следующее число");
             int i = sc.nextInt();
             c += i;
             if (i > s)

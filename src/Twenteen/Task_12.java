@@ -13,7 +13,7 @@ public class Task_12
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
+        System.out.println("Введите 10 чисел");
         Scanner sc = new Scanner(System.in);
         int g = 0;
         for (int i = 0;i < 10;i++)

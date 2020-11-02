@@ -20,8 +20,9 @@ public class Task_17
             {
                 end  = end * 3;
             }
-            System.out.print(end);
+            System.out.print(end + " ");
             end = 1;
         }
+        System.out.println();
     }
 }

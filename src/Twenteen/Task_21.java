@@ -17,11 +17,12 @@ public class Task_21
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите числa");
+        System.out.println("Введите вес первой гири");
         Scanner sc = new Scanner(System.in);
         double m = sc.nextDouble();
         int g = 0;
         double strg = 0;
+        System.out.println("Введите количество гирь");
         int n = sc.nextInt();
         for (int i = 0;i < n;i++)
         {

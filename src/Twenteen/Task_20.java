@@ -15,10 +15,12 @@ public class Task_20
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите первоначальную выручку предприятия за месяц работы");
         double x = sc.nextInt();
+        System.out.println("Введите первоначальную процент увеличения выручки");
         double a = sc.nextInt();
+        System.out.println("Введите количество месяцев");
         double k = sc.nextInt();
         for (int i = 0;i < k;i++)
         {

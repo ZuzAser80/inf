@@ -30,6 +30,6 @@ public class Task_30
             System.out.println("Введите число");
             i = sc.nextInt();
         }
-        System.out.println("Был введен 0.Вывод закончен.");
+        System.out.println("Был введен 0. Вывод закончен.");
     }
 }

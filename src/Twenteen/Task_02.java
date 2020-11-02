@@ -14,7 +14,7 @@ public class Task_02
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
+        System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 1;i < n;i += 2)

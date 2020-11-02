@@ -14,13 +14,13 @@ public class Task_25
     public static void main(String[] args)
     {
 
-        System.out.println("Введите число");
+        System.out.println("Введите число n");
         int max = 0;
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 0;i < n;i++)
         {
-            System.out.println("Введите число");
+            System.out.println("Введите следующее число");
             int d = sc.nextInt();
             max = d;
             if (d >= max)

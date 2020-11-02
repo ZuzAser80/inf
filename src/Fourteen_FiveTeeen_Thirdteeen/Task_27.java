@@ -18,9 +18,9 @@ public class Task_27
         int i = sc.nextInt();
         while (i >= 0)
         {
-            System.out.println("Введите число");
+            System.out.println("Введите следующее число");
             i = sc.nextInt();
         }
-        System.out.println(i + " - отрицательно.Программа выполнена");
+        System.out.println(i + " - отрицательно. Программа выполнена");
     }
 }

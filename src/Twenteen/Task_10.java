@@ -16,9 +16,10 @@ public class Task_10
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
+        System.out.println("Введите число a");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+        System.out.println("Введите число b");
         int b = sc.nextInt();
         for (int x = -10;x <= 10;x++)
         {
