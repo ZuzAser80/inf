@@ -5,8 +5,8 @@ import java.util.Scanner;
  */
 /*
 2.5 last task
+ Даны целые числа a, b, c. Найти их произведение, сумму и среднее арифметическое.
  */
-//TODO: добавить описание задачи
 public class TwoFiveLast {
     public static  void main(String[] args)
     {
