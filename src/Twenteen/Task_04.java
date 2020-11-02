@@ -13,16 +13,15 @@ public class Task_04
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int str = 0;
         for (int i = 0;i <= n;i += 2)
         {
-            str++; //TODO: это не сумма а количество, например для 21 программа мне вывела 11, но сумма четных чисел не может быть нечетной
+            str += i;
         }
-        //TODO: добавить вывод комментария, что нашли, примерно так:
-        //System.out.print("Сумма четных чисел: ");
-        System.out.println(str);
+
+        System.out.print("Сумма четных чисел: " + str);
     }
 }

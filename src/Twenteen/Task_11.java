@@ -13,7 +13,7 @@ public class Task_11
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0;i < 10;i++)

@@ -13,20 +13,19 @@ public class Task_13
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int stg = 1;
         for (int i = 0;i < n;i++)
         {
-            //TODO: добавить promt, иначе создается впечатление что программа зависла, что-то вроде System.out.print("Введите следующее число")
+            System.out.println("Введите следующее число");
             int d = sc.nextInt();
             if (d % 2 != 0)
             {
                 stg = stg * d;
             }
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.println(stg);
+        System.out.println("n введенных чисел произведение нечетных = " + stg);
     }
 }

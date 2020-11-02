@@ -18,7 +18,6 @@ public class Task_06
         {
             o += i;
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.println(o);
+        System.out.println("Сумма = " + o);
     }
 }

@@ -17,7 +17,7 @@ public class Task_03
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int g = 1;
@@ -25,8 +25,6 @@ public class Task_03
         {
             g = g * i;
         }
-        //TODO: добавить вывод комментария, что нашли, примерно так:
-        //System.out.print("Факториал: ");
-        System.out.println(g);
+        System.out.println("Факториал: " + g);
     }
 }

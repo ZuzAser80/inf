@@ -20,7 +20,7 @@ public class Task_17
             {
                 end  = end * 3;
             }
-            System.out.println(end);//TODO: нужно вывести ряд, сейчас выводиться "столбец" для этого нужно System.out.print, без ln
+            System.out.print(end);
             end = 1;
         }
     }

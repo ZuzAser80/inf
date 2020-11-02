@@ -13,7 +13,7 @@ public class Task_12
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int g = 0;
         for (int i = 0;i < 10;i++)
@@ -21,7 +21,6 @@ public class Task_12
             int h = sc.nextInt();
             g += h;
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.print(g);
+        System.out.print("Сумма = " + g);
     }
 }

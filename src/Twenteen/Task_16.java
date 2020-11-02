@@ -15,17 +15,16 @@ public class Task_16
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         double stg = 1;
         for (int i = 0;i < n;i++)
         {
-            //TODO: добавить promt, иначе создается впечатление что программа зависла, что-то вроде System.out.print("Введите рост ученика")
+            System.out.println("Введите следующее число");
             int d = sc.nextInt();
             stg += d;
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.println(stg / n);
+        System.out.println("Среднее арифм = " + stg / n);
     }
 }

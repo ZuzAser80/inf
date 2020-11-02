@@ -16,14 +16,14 @@ public class Task_10
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         for (int x = -10;x <= 10;x++)
         {
             int g = a * x;
-            int sum = g + b; //TODO: можно в одно действие вычислить sum = a * x + b
+            int sum = g + b;
             System.out.println("При х = " + x + " y = " + sum);
         }
     }

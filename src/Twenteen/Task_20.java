@@ -15,7 +15,7 @@ public class Task_20
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         double x = sc.nextInt();
         double a = sc.nextInt();

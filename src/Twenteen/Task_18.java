@@ -15,7 +15,7 @@ public class Task_18
 {
     public static void main(String[] args)
     {
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int result = 1;
@@ -23,8 +23,7 @@ public class Task_18
         {
             result = result * 10;
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.println(result);
+        System.out.println("10 в степени a = " + result);
     }
 }
 

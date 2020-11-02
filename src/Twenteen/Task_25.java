@@ -14,21 +14,20 @@ public class Task_25
     public static void main(String[] args)
     {
 
-        //TODO: добавить promt, иначе создается впечатление что программа зависла
+        System.out.println("Введите число");
         int max = 0;
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 0;i < n;i++)
         {
-            //TODO: добавить promt с просьбой ввести следующее число
+            System.out.println("Введите число");
             int d = sc.nextInt();
             max = d;
             if (d >= max)
             {
                 max = d;
             }
-            //TODO: добавить вывод комментария, что нашли
-            System.out.print(max);
+            System.out.print("максимальное число = " + max);
         }
     }
 }
