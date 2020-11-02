@@ -26,7 +26,7 @@ public class Task_20
             double pr = proc * a;
             x += pr;
         }
-        //TODO: добавить вывод комментария, что нашли
-        System.out.print(x);
+
+        System.out.print("месячная выручка через k месяцев = " + x);
     }
 }

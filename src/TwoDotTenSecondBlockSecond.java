@@ -17,8 +17,7 @@ public class TwoDotTenSecondBlockSecond
         int c = ds.nextInt();
         int d = ds.nextInt();
         int max;
-        if (a == d || b == d || c == d) //TODO: это условие можно убать, так как проверки дублируются
-        {
+
             if (a == d) //например эта дублирует первую часть a == d ||
             {
                 System.out.print("a == d");
@@ -31,9 +30,8 @@ public class TwoDotTenSecondBlockSecond
             {
                 System.out.print("c == d");
             }
-        }
-        else
-        {
+
+
             if (d - a >= d - b && d - a >= d - c)
             {
                 max = d - a;
@@ -50,7 +48,7 @@ public class TwoDotTenSecondBlockSecond
                 System.out.print("d - c = " + max);
             }
 
-        }
+
 
         
     }
