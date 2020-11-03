@@ -31,11 +31,11 @@ public class TwoDotTenSecond
         String g = Integer.toString(a);
         String Ending = "";
 
-        if (a % 2 == 0)
+        if (a % 2 != 0)
         {
             Ending  = "лет";
         }
-        else if (a % 2 != 0)
+        else if (a % 2 == 0 || a <= 4)
         {
             Ending = "года";
         }
