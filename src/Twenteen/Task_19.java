@@ -14,13 +14,12 @@ public class Task_19
     public static void main(String[] args)
     {
         double kilo = 1;
-        int strg = 0;
-        for (int i = 0;i < 7;i++)
+        double strg = 1;
+        for (int i = 0;i < 6;i++)
         {
-            strg += kilo;
             kilo += 0.2;
-            // итого у тебя получиться просто 1 кг + 7 * 0.2, то есть будет 2.4 кг
-            // а должно быть по дням  так: 1 кг, 1.2 кг, 1.4 кг , 1.6 кг, то есть за первые три дня получается 3.6 кг
+            strg += kilo;
+            System.out.println("День " + (i + 1) + ", скинул " + kilo + ", " + strg);
         }
         System.out.println("Скинул = " + strg);
     }

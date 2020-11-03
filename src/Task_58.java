@@ -18,6 +18,17 @@ public class Task_58
         int g = 1;
         int strgs = 0;
         int pcgs = 0;
+
+        for (int p = 1;p <=100; p++) //
+        {
+            for (int b = 1; b <= 100; b++) {
+                int pkg = 100 - b - p;
+                if (pkg >= 0 && pkg <= 100 && p*100 + b * 50 + pkg * 0.5 <= 1000) {
+//                    System.out.println(...);
+                }
+            }
+        }
+
         while (all > 0)
         {
             if (g <= 100) //TODO: это условие можно добавить в сам цикл while: while (all > 0 && g <= 100)

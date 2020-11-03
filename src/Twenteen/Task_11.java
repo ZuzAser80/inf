@@ -13,15 +13,14 @@ public class Task_11
 {
     public static void main(String[] args)
     {
-        System.out.println("Введите число");
+        System.out.println("Введите десять чисел");
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0;i < 10;i++)
+        for (int i = 1;i <= 10;i++)
         {
-            System.out.println("Введите число");
-            int g = sc.nextInt();
-            //TODO: давай немного доработаем, будем сохранять введенные цифры в массив и после цикла их выведем
+            System.out.println("Введите число номер " + i);
+            sc.nextInt();
         }
-        //TODO: то есть тут сделам System.out.println("вы ввели: ") + вывод сохраненных чисел
+        System.out.println("Вы ввели 10 чисел");
     }
 }

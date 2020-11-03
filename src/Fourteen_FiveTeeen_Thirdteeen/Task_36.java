@@ -16,6 +16,10 @@ public class Task_36
 {
     public static void main(String[] args)
     {
+        loopFor();
+    }
+
+    static void loopFor() {
         System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -31,4 +35,24 @@ public class Task_36
         }
         System.out.println(c + " чисел равно 0 или кратно 10");
     }
+
+    static void loopWhile() {
+        System.out.println("Введите число n");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int c = 0;
+        int h = 0;
+        while (h < n)
+        h++;
+        {
+            System.out.println("Введите число");
+            int i = sc.nextInt();
+            if (i == 0 || i % 10 == 0)
+            {
+                c++;
+            }
+        }
+        System.out.println(c + " чисел равно 0 или кратно 10");
+    }
+
 }
