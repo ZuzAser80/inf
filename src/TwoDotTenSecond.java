@@ -26,24 +26,44 @@ public class TwoDotTenSecond
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        String g = Integer.toString(a);
-        String Ending = "";
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        String g = Integer.toString(a);
+//        String Ending = "";
+//
+//        if (a % 2 != 0)
+//        {
+//            Ending  = "лет";
+//        }
+//        else if (a % 2 == 0 || a <= 4)
+//        {
+//            Ending = "года";
+//        }
+//        if (a % 10 == 1)
+//        {
+//
+//            Ending = "год";
+//        }
+//        System.out.println("Вам " + a + " " + Ending);
+        for (int i = 1;i<100;i++) {
+            System.out.println("Вам " + i + " " + printAges(i));
+        }
+    }
 
-        if (a % 2 != 0)
+    static String printAges(int age) {
+        if (age % 2 != 0)
         {
-            Ending  = "лет";
+            return "лет";
         }
-        else if (a % 2 == 0 || a <= 4)
+        else if (age % 2 == 0 || age <= 4)
         {
-            Ending = "года";
+            return "года";
         }
-        if (a % 10 == 1)
+        if (age % 10 == 1)
         {
 
-            Ending = "год";
+            return "год";
         }
-        System.out.println("Вам " + a + " " + Ending);
+        return "---";
     }
 }
