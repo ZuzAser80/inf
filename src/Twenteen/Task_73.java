@@ -33,8 +33,7 @@ public class Task_73
                 stg += Math.abs(g);
             }
             balanse -= b;
-            b = b + b * 0.3;
-
+            b = b * 1.3;
         }
         System.out.println("Надо выпросить в общем: " + stg);
     }
