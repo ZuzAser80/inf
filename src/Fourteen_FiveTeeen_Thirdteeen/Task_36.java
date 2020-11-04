@@ -11,7 +11,6 @@ import java.util.Scanner;
 считает количество чисел равных 0 или кратных 10 с
 использованием всех видов циклов.
 */
-//TODO: нужно добавить реалзацию с циклами while и do ... while
 public class Task_36
 {
     public static void main(String[] args)
@@ -54,5 +53,6 @@ public class Task_36
         }
         System.out.println(c + " чисел равно 0 или кратно 10");
     }
+
 
 }
