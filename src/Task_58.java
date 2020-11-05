@@ -18,34 +18,18 @@ public class Task_58
         int g = 1;
         int strgs = 0;
         int pcgs = 0;
-
-        //TODO: нужно убрать
-        for (int p = 1;p <=100; p++) //
+        for (int brl = 0;brl <= 100;brl++)
         {
-            for (int b = 1; b <= 100; b++) {
-                int pkg = 100 - b - p;
-                if (pkg >= 0 && pkg <= 100 && p*100 + b * 50 + pkg * 0.5 <= 1000) {
-//                    System.out.println(...);
+            brls++;
+            for (int s = 0;s <= 100;s++)
+            {
+                strgs++;
+                pcgs = 100 - brls - strgs;
+                if (pcgs >= 0 && brls * 100 + strgs * 50 + pcgs * 0.5 == 1000)
+                {
+                    System.out.println("Бочек: = " + brls + " Ящиков: = " + strgs + " Пакетов: " + pcgs);
                 }
             }
-        }
-
-        while (all > 0 && g <= 100) //TODO: этот цикл лишний
-        {
-                g++;
-                for (int brl = 0;brl <= 100;brl++)
-                {
-                    brls++;
-                    for (int s = 0;s <= 100;s++)
-                    {
-                        strgs++;
-                        pcgs = 100 - brls - strgs;
-                        if (pcgs >= 0 && brls * 100 + strgs * 50 + pcgs * 0.5 == 1000)
-                        {
-                            System.out.println("Бочек: = " + brls + " Ящиков: = " + strgs + " Пакетов: " + pcgs);
-                        }
-                    }
-                }
         }
         System.out.print(brls + " " + strgs + " " + pcgs);
     }

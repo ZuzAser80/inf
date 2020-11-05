@@ -45,7 +45,7 @@ public class TwoDotTenSecond
 //            Ending = "год";
 //        }
 //        System.out.println("Вам " + a + " " + Ending);
-        for (int i = 1;i<100;i++) {
+        for (int i = 1;i < 100;i++) {
             System.out.println("Вам " + i + " " + printAges(i));
         }
     }
@@ -53,17 +53,36 @@ public class TwoDotTenSecond
     static String printAges(int age) {
         if (age % 2 != 0)
         {
-            return "лет";
-        }
-        else if (age % 2 == 0 || age <= 4)
-        {
-            return "года";
-        }
-        if (age % 10 == 1)
-        {
+            if (age <= 4 || age % 10 == 3)
+            {
+                return "года";
+            }
+            else
+            {
+                if (age % 10 == 1)
+                {
 
-            return "год";
+                    return "год";
+                }
+                else
+                {
+                    return "лет";
+                }
+            }
         }
+        if (age % 2 == 0)
+        {
+            if (age % 10 ==  4 || age <= 4 || age % 10 == 2)
+            {
+                return "года";
+            }
+            else
+            {
+                return "лет";
+            }
+
+        }
+
         return "---";
     }
 }
