@@ -45,4 +45,21 @@ public class Task_38
             i--;
         }
     }
+    static void Loop3()
+    {
+        int i = 100;
+        do
+        {
+            int g = i;
+            int a = g % 10;
+            g = g / 10;
+            int b = g % 10;
+            if (a > b)
+            {
+                System.out.println(i);
+            }
+            i--;
+
+        } while (i >= 0);
+    }
 }
