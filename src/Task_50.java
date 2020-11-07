@@ -14,15 +14,15 @@ public class Task_50
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        int max = 0;
-        int f = 0;
-        do
-        {
-            int g = n % 10;
-            n = n / 10;
-        }
-        while (n > 0);
-        System.out.println(max);
-        System.out.println(f);
+        int r = razrad(n) - 1;
+        n = (int)( n % Math.pow(10, r));
+        System.out.println(n / 10);
+    }
+
+    static int razrad(int n) {
+        int r = 0;
+        int k = n;
+        do {k = k /10; r++;} while (k > 0);
+        return r;
     }
 }

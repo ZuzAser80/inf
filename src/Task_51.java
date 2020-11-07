@@ -16,14 +16,15 @@ public class Task_51
         int n = sc.nextInt();
         System.out.println("Введите число k");
         int k = sc.nextInt();
-        int f = 0;
-        do
-        {
-            int g = n % 10;
-            n = n / 10;
-            f = g;
-        }
-        while (n > 0);
+        int r = razrad(n);
+        n =(int)(n % Math.pow(10, r - 1));
+        n = (int)(n + k * Math.pow(10, r - 1));
         System.out.println(n);
+    }
+    static int razrad(int n) {
+        int r = 0;
+        int k = n;
+        do {k = k /10; r++;} while (k > 0);
+        return r;
     }
 }

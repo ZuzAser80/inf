@@ -14,24 +14,24 @@ public class Task_54
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        int max = 0;
-        double v = 0;
-        double s = 0;
-        int counter = 0;
-        int f = 1;
-        do
+        int r = razrad(n);
+        if (r % 2 != 0)
         {
-            n = n / 10;
-            counter++;
+            r = r / 2;
+            int g = (int)(n / Math.pow(10, r));
+            g = g % 10;
+            n -= (int)(g * Math.pow(10, r));
+            System.out.println("4исло n = " + n);
         }
-        while (n > 0);
-        int j = counter / 2;
-        for (int q = 0;q < j;q++)
+        else
         {
-            v = Math.pow(max, q);
+            System.out.println("Разрядов чётное колчество.");
         }
-        s = v * 100;
-        n -= s;
-        System.out.println(n);
+    }
+    static int razrad(int n) {
+        int r = 0;
+        int k = n;
+        do {k = k /10; r++;} while (k > 0);
+        return r;
     }
 }

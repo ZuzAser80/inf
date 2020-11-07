@@ -14,9 +14,14 @@ public class Task_53
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        String h = Integer.toString(n);
-        String f = h + h;
-
-        System.out.println(f);
+        int r = razrad(n);
+        n = (int)(n * Math.pow(10, r) + n);
+        System.out.println(n);
+    }
+    static int razrad(int n) {
+        int r = 0;
+        int k = n;
+        do {k = k /10; r++;} while (k > 0);
+        return r;
     }
 }

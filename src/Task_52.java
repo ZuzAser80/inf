@@ -9,24 +9,23 @@ import java.util.Scanner;
  */
 public class Task_52
 {
-    public static void main(String[] args)
+    public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        double max = 0;
-        int d = n;
-        double f = 0;
-        do
-        {
-            int g = n % 10;
-            n = n / 10;
-        }
-        while (n > 0);
-        double s = Math.pow(max, 1) * 10;
-        String h = Integer.toString(n);
-        double s1 = Math.pow(max, h.length()) * 10;
-        d -= s;
-        System.out.println(d);
+        System.out.println("Введите число k");
+        int k = sc.nextInt();
+        int r = razrad(n);
+        n = (int)(n + k * Math.pow(10, r));
+        n = n * 10;
+        n += k;
+        System.out.println(n);
+    }
+    static int razrad(int n) {
+        int r = 0;
+        int k = n;
+        do {k = k /10; r++;} while (k > 0);
+        return r;
     }
 }
