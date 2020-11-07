@@ -25,6 +25,5 @@ public class Task_58
                 }
             }
         }
-//        System.out.print(brls + " " + strgs + " " + pcgs);
     }
 }
