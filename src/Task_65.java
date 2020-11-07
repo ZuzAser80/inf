@@ -27,10 +27,6 @@ public class Task_65
                 max = g;
                 f++;
             }
-            else
-            {
-
-            }
         }
         while (n > 0);
         double s = Math.pow(10, f);

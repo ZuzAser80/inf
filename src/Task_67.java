@@ -16,23 +16,23 @@ public class Task_67
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        for(int a = 1;a < n;a++)
-        {
-            for (int b = a;b < n;b++)
+            for(int a = 1;a <= n;a++)
             {
+                for (int b = a;b < n;b++)
+                {
 
-                int d = a * a + b * b;
-                int c = 1;
-                while (c * c == d)
-                {
-                    c++;
-                }
-                if (d == c * c && c < n)
-                {
-                    System.out.println(a + " " + b + " " + c);
+                    int d = a * a + b * b;
+                    int c = 1;
+                    while (c * c == d)
+                    {
+                        c++;
+                    }
+                    if (d == c * c)
+                    {
+                        System.out.println(a + " " + b + " " + c);
+                    }
                 }
             }
-        }
     }
 }
 
