@@ -20,7 +20,9 @@ public class Task_41
             n = n / 10;
             System.out.println(g);
         }
-
+        int g = n % 10;
+        n = n / 10;
+        System.out.println(g);
 
     }
 }
