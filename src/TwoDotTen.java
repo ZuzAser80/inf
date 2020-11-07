@@ -11,7 +11,7 @@ public class TwoDotTen
 {
     public static void main(String[] args)
     {
-        //TODO: добавить промит
+        System.out.println("Введите число");
         Scanner a = new Scanner(System.in);
         int aa = a.nextInt();
         if (aa <= 7)

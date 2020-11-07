@@ -17,9 +17,11 @@ import java.util.Scanner;
 public class ThreeDotFour
 {
     public static void main(String[] args) {
-        //TODO: добавить промит
+
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число x");
         int x = sc.nextInt();
+        System.out.println("Введите символ a");
         String a = sc.nextLine();
         System.out.println("0 0 0 0 0 0");
         System.out.println("0 " + a + " " + a + " " + a + " " + a + " 0");

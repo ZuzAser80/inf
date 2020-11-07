@@ -11,9 +11,11 @@ import java.util.Scanner;
 public class TwoDotSix {
     public static void main(String[] args)
     {
-        //TODO: добавить промит
+
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите длинну стороны прямоугольника");
         int i = sc.nextInt();
+        System.out.println("Введите длинну второй стороны прямоугольника");
         int i2 = sc.nextInt();
         int perim = i * 2 + i2 * 2;
         int sqare = i * i2;

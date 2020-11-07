@@ -51,8 +51,14 @@ public class TwoDotTenSecond
     }
 
     static String printAges(int age) {
-        //TODO: добавить условие если age >= 10 и  age <= 20 выводить год
-        //TODO: добавить условие если age == 1 выводить год
+        if (age >= 10 && age <= 20)
+        {
+            return "год";
+        }
+        if (age == 1)
+        {
+            return "год";
+        }
         if (age % 2 != 0)
         {
             if (age <= 4 || age % 10 == 3)

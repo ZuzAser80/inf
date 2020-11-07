@@ -16,16 +16,25 @@ public class Task_15
         System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int stg = 1; //TODO: добавить флаг проверки ввода чисел, заканчивающихся на 3
+        boolean flag = false;
+        int stg = 1; //добавить флаг проверки ввода чисел, заканчивающихся на 3
         for (int i = 0;i < n;i++)
         {
             System.out.println("Введите следующее число");
             int d = sc.nextInt();
             if (d % 10 == 3)
             {
+                flag = true;
                 stg = stg * d;
             }
         }
-        System.out.println("Итог = " + stg);
+        if (flag == true)
+        {
+            System.out.println("Итог = " + stg);
+        }
+        else
+        {
+            System.out.println("Чисел, заканчивающихся на 3 не было введено.");
+        }
     }
 }
