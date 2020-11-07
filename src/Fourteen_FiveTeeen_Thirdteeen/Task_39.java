@@ -6,6 +6,7 @@ package Fourteen_FiveTeeen_Thirdteeen;
 /*
 2.15.6
 Составить программу, которая находит наименьшее трехзначное число, имеющее 10 делителей.
+
  */
 public class Task_39
 {
