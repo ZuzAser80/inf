@@ -12,8 +12,11 @@ public class TwoFiveLast {
     {
 
         Scanner cs = new Scanner(System.in);
+        System.out.println("Введите число a");
         int a = cs.nextInt();
+        System.out.println("Введите число b");
         int b = cs.nextInt();
+        System.out.println("Введите число c");
         int c = cs.nextInt();
         int sum = a + b + c;
         int umn = a * b * c;

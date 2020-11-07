@@ -12,6 +12,7 @@ public class Task_45
     public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число n");
         int n = sc.nextInt();
         int d = 0;
         int i = 1;

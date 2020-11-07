@@ -16,6 +16,7 @@ public class Task_59
     public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число s");
         int s = sc.nextInt();
         int g = 0;
         boolean i = false;

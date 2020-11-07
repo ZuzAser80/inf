@@ -12,6 +12,7 @@ public class Task_53
     public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число n");
         int n = sc.nextInt();
         String h = Integer.toString(n);
         String f = h + h;

@@ -13,6 +13,7 @@ public class Task_66
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число n");
         int n = sc.nextInt();
         int g = n;
         int a = g % 10;

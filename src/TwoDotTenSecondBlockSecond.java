@@ -12,9 +12,13 @@ public class TwoDotTenSecondBlockSecond
     {
 
         Scanner ds = new Scanner(System.in);
+        System.out.println("Введите число a");
         int a = ds.nextInt();
+        System.out.println("Введите число b");
         int b = ds.nextInt();
+        System.out.println("Введите число c");
         int c = ds.nextInt();
+        System.out.println("Введите число d");
         int d = ds.nextInt();
         int max;
 

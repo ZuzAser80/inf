@@ -13,6 +13,7 @@ public class Task_69
     public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число n");
         int n = sc.nextInt();
         int f = 0;
         int max = 0;

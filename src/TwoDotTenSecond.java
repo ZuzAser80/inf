@@ -26,25 +26,7 @@ public class TwoDotTenSecond
 {
     public static void main(String[] args)
     {
-//        Scanner sc = new Scanner(System.in);
-//        int a = sc.nextInt();
-//        String g = Integer.toString(a);
-//        String Ending = "";
-//
-//        if (a % 2 != 0)
-//        {
-//            Ending  = "лет";
-//        }
-//        else if (a % 2 == 0 || a <= 4)
-//        {
-//            Ending = "года";
-//        }
-//        if (a % 10 == 1)
-//        {
-//
-//            Ending = "год";
-//        }
-//        System.out.println("Вам " + a + " " + Ending);
+        System.out.println("Введите число");
         for (int i = 1;i < 100;i++) {
             System.out.println("Вам " + i + " " + printAges(i));
         }

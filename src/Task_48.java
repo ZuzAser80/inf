@@ -12,6 +12,7 @@ public class Task_48
     public  static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число n");
         int n = sc.nextInt();
         int min = 9;
         while (n / 10 != 0)
