@@ -21,7 +21,7 @@ public class Task_44
             int g = n % 10;
             if (g % 2 != 0)
             {
-                d++;
+                d += g;
             }
             n = n / 10;
         }
