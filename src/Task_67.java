@@ -23,11 +23,11 @@ public class Task_67
 
                     int d = a * a + b * b;
                     int c = 1;
-                    while (c * c == d)
+                    while (c * c != d && c < n)
                     {
                         c++;
                     }
-                    if (d == c * c)
+                    if (d == c * c && c < n)
                     {
                         System.out.println(a + " " + b + " " + c);
                     }
