@@ -15,7 +15,7 @@ public class Task_46
         System.out.println("Введите число n");
         int n = sc.nextInt();
         int d = 0;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             if (g == 0)
@@ -24,6 +24,7 @@ public class Task_46
             }
             n = n / 10;
         }
+        while (n > 0);
         System.out.println(d);
 
     }

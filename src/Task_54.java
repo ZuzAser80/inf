@@ -22,12 +22,14 @@ public class Task_54
         int a = 0;
         int counter = 0;
         int f = 1;
-        while (n / 10 != 0)
+        do
         {
-            int h = d % 10;
-            d = d / 10;
+            int h = n % 10;
+            n = n / 10;
             counter++;
         }
+        while (n > 0);
+
 
         int j = counter / 2;
         for (int q = 0;q < j;q++)

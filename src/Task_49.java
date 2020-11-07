@@ -17,7 +17,7 @@ public class Task_49
         int n = sc.nextInt();
         int max = 0;
         int f = 0;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             n = n / 10;
@@ -30,6 +30,7 @@ public class Task_49
                 f++;
             }
         }
+        while (n > 0);
         System.out.println(max);
         System.out.println(f);
     }

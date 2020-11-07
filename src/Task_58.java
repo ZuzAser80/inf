@@ -13,24 +13,18 @@ public class Task_58
 {
     public static void main(String[] args)
     {
-        double all = 1000;
-        int brls = 0;
-        int g = 1;
-        int strgs = 0;
-        int pcgs = 0;
         for (int brl = 0;brl <= 100;brl++)
         {
-            brls++;
             for (int s = 0;s <= 100;s++)
             {
-                strgs++;
-                pcgs = 100 - brls - strgs;
-                if (pcgs >= 0 && brls * 100 + strgs * 50 + pcgs * 0.5 == 1000)
+                int pcgs = 100 - brl - s;
+                double total = brl * 100 + s * 50 + pcgs * 0.5;
+                if (pcgs >= 0 && total<= 1000)
                 {
-                    System.out.println("Бочек: = " + brls + " Ящиков: = " + strgs + " Пакетов: " + pcgs);
+                    System.out.println("Бочек: = " + brl + " Ящиков: = " + s + " Пакетов: " + pcgs + ", общий вес: " + total);
                 }
             }
         }
-        System.out.print(brls + " " + strgs + " " + pcgs);
+//        System.out.print(brls + " " + strgs + " " + pcgs);
     }
 }

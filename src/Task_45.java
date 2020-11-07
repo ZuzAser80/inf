@@ -16,7 +16,7 @@ public class Task_45
         int n = sc.nextInt();
         int d = 0;
         int i = 1;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             if (g % 2 == 0)
@@ -29,6 +29,7 @@ public class Task_45
             }
             n = n / 10;
         }
+        while (n > 0);
         System.out.println("Proizv = " + i);
         System.out.println("Sum = " + d);
 

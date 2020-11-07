@@ -17,12 +17,13 @@ public class Task_51
         System.out.println("Введите число k");
         int k = sc.nextInt();
         int f = 0;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             n = n / 10;
             f = g;
         }
+        while (n > 0);
         System.out.println(n);
     }
 }

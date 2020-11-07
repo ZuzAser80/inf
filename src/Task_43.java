@@ -15,9 +15,9 @@ public class Task_43
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число n");
         int n = sc.nextInt();
-        int d = 0;
+        double d = 0;
         int i = 0;
-        while (n / 10 != 0)
+        do
         {
             i++;
             int g = n % 10;
@@ -25,6 +25,7 @@ public class Task_43
             d += g;
 
         }
+        while (n > 0);
         d = d / i;
         System.out.println(d);
     }

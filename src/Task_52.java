@@ -17,11 +17,12 @@ public class Task_52
         double max = 0;
         int d = n;
         double f = 0;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             n = n / 10;
         }
+        while (n > 0);
         double s = Math.pow(max, 1) * 10;
         String h = Integer.toString(n);
         double s1 = Math.pow(max, h.length()) * 10;

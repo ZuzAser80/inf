@@ -15,7 +15,7 @@ public class Task_48
         System.out.println("Введите число n");
         int n = sc.nextInt();
         int min = 9;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
 
@@ -25,6 +25,7 @@ public class Task_48
                 min = g;
             }
         }
+        while (n > 0);
         System.out.println(min);
     }
 }

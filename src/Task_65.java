@@ -18,7 +18,7 @@ public class Task_65
         double max = 0;
         int d = n;
         double f = 0;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             n = n / 10;
@@ -32,6 +32,7 @@ public class Task_65
 
             }
         }
+        while (n > 0);
         double s = Math.pow(10, f);
         s = s / 10;
         s = s * max;

@@ -16,7 +16,7 @@ public class Task_44
         int n = sc.nextInt();
         int d = 0;
         int i;
-        while (n / 10 != 0)
+        do
         {
             int g = n % 10;
             if (g % 2 != 0)
@@ -25,6 +25,7 @@ public class Task_44
             }
             n = n / 10;
         }
+        while (n > 0);
         System.out.println(d);
 
     }
