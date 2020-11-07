@@ -16,7 +16,7 @@ public class Task_15
         System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int stg = 1;
+        int stg = 1; //TODO: добавить флаг проверки ввода чисел, заканчивающихся на 3
         for (int i = 0;i < n;i++)
         {
             System.out.println("Введите следующее число");

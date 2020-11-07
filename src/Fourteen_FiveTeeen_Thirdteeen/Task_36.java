@@ -35,13 +35,13 @@ public class Task_36
         System.out.println(c + " чисел равно 0 или кратно 10");
     }
 
-    static void loopWhile() {
+    static void loopWhile() { //TODO: запустить проверить
         System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int c = 0;
         int h = 0;
-        while (h < n)
+        while (h < n) //TODO: сейчас в цикле выполнятся только команда h++
         h++;
         {
             System.out.println("Введите число");
@@ -53,14 +53,15 @@ public class Task_36
         }
         System.out.println(c + " чисел равно 0 или кратно 10");
     }
-    static void Loop3()
+
+    static void Loop3()  //TODO: поправить цикл do while
     {
         System.out.println("Введите число n");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int c = 0;
         int h = 0;
-        h++;
+        h++; //TODO: тут цикла нет совсем
         {
             System.out.println("Введите число");
             int i = sc.nextInt();

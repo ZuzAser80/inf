@@ -19,7 +19,7 @@ public class Task_37
         int n = sc.nextInt();
         for (int h = 1;h <= n;h++)
         {
-            if (h % 4 == 0 || h % 5 == 0)
+            if (h % 4 == 0 && h % 5 == 0)
             {
                 System.out.println(h);
             }

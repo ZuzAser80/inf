@@ -27,7 +27,7 @@ public class Task_30
             {
                 System.out.println("Число нечетное");
             }
-            System.out.println("Введите число");
+            System.out.println("Введите следующее число");
             i = sc.nextInt();
         }
         System.out.println("Был введен 0. Вывод закончен.");

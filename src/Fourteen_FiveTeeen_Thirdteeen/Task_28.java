@@ -20,7 +20,7 @@ public class Task_28
         int i = sc.nextInt();
         while (i != x)
         {
-            System.out.println("Введите число");
+            System.out.println("Не угадали, введите следующее число");
             i = sc.nextInt();
         }
         System.out.println(i + " = " + x + " Вывод закончен");

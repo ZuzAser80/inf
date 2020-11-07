@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class TwoDotSixSix {
     public static void main(String[] args)
     {
+        //TODO: добавить промит
         Scanner sc = new Scanner(System.in);
         double r = sc.nextDouble();
         double g = Math.PI * 2 * r;

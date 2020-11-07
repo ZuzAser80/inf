@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class ThreeDotFour
 {
     public static void main(String[] args) {
+        //TODO: добавить промит
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         String a = sc.nextLine();

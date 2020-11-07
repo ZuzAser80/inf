@@ -23,7 +23,7 @@ public class Task_39
             }
             if (s >= 10)
             {
-                System.out.println("Tрехзначное число, имеющее 10 делителей = " + n);
+                System.out.println("Tрехзначное число, имеющее более 10 делителей = " + n);
                 break;
             }
         }

@@ -17,15 +17,21 @@ public class Task_13
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int stg = 1;
+        boolean condition = false;
         for (int i = 0;i < n;i++)
         {
             System.out.println("Введите следующее число");
             int d = sc.nextInt();
             if (d % 2 != 0)
             {
+                condition = true;
                 stg = stg * d;
             }
         }
-        System.out.println("n введенных чисел произведение нечетных = " + stg);
+        if (condition) {
+            System.out.println("n введенных чисел произведение нечетных = " + stg);
+        } else {
+            System.out.println("n введенных чисел нечетные отсутствует");
+        }
     }
 }

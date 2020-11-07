@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class TwoDotSix {
     public static void main(String[] args)
     {
+        //TODO: добавить промит
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         int i2 = sc.nextInt();

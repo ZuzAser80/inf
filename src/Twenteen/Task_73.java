@@ -23,17 +23,18 @@ public class Task_73
         System.out.println("Введите б");
         double b = sc.nextInt();
         double stg = 0;
-        for(int i = 0;i <= 10;i++)
+        double balanse = a;
+        for(int i = 1;i <= 10;i++)
         {
-            double balanse = a;
-            double g = balanse -= b;
+            balanse = balanse - b;
+            double g = balanse;
+            System.out.println("На дне " + i + " Баланс " + balanse + ", расход: " + b);
             if (g <= 0)
             {
                 System.out.println("На дне " + i + " придется выпросить " + Math.abs(g));
                 stg += Math.abs(g);
             }
-            balanse -= b;
-            b = b * 1.3;
+            b = b * 1.03;
         }
         System.out.println("Надо выпросить в общем: " + stg);
     }

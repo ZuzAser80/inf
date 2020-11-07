@@ -19,8 +19,8 @@ public class Task_19
         {
             kilo += 0.2;
             strg += kilo;
-            System.out.println("День " + (i + 1) + ", скинул " + kilo + ", " + strg);
+            System.out.println("День " + (i + 1) + ", сбросил: " + kilo + " кг, всего сбросил: " + strg + " кг");
         }
-        System.out.println("Скинул = " + strg);
+        System.out.println("Сбросил: " + strg);
     }
 }

@@ -16,8 +16,9 @@ public class Task_12
         System.out.println("Введите 10 чисел");
         Scanner sc = new Scanner(System.in);
         int g = 0;
-        for (int i = 0;i < 10;i++)
+        for (int i = 1;i <= 10;i++)
         {
+            System.out.println("Введите число номер " + i);
             int h = sc.nextInt();
             g += h;
         }
