@@ -21,18 +21,14 @@ public class Task_21
         Scanner sc = new Scanner(System.in);
         double m = sc.nextDouble();
         int g = 0;
-        double strg = 0;
         System.out.println("Введите количество гирь");
         int n = sc.nextInt();
         for (int i = 0;i < n;i++)
         {
             m = m * 1.15;
             g += m;
-            if (m > strg)
-            {
-                strg = m;
-            }
+
         }
-        System.out.print("Общий вес " + g + " Средний вес " + g / n + " Самая тяжелая " + strg);
+        System.out.print("Общий вес " + g + " Средний вес " + g / n + " Самая тяжелая " + m);
     }
 }

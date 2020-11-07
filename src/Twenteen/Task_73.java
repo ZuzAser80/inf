@@ -20,7 +20,7 @@ public class Task_73
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите a");
         double a = sc.nextInt();
-        System.out.println("Введите б");
+        System.out.println("Введите b");
         double b = sc.nextInt();
         double stg = 0;
         double balanse = a;
