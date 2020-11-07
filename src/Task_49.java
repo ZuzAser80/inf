@@ -24,6 +24,7 @@ public class Task_49
             if (g > max)
             {
                 max = g;
+                f = 0;
             }
             if (g == max)
             {
