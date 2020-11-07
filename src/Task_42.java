@@ -22,7 +22,7 @@ public class Task_42
             n = n / 10;
             str = str * g;
         }
-        str = str * g;
+        str = str * n;
         System.out.println(str);
     }
 }
